@@ -1,0 +1,59 @@
+:root {
+	--dark-cyan: hsl(185, 75%, 39%);
+	--very-dark-desaturated-blue: hsl(229, 23%, 23%);
+	--dark-grayish-blue: hsl(227, 10%, 46%);
+	--dark-gray: hsl(0, 0%, 59%);
+	--white: hsl(0, 0%, 100%);
+}
+
+body {
+	font-family: 'Kumbh Sans', sans-serif;
+	font-size: 18px;
+	background-color: var(--dark-cyan);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+h1 {
+	font-size: 1.2em;
+}
+
+h2 {
+	font-size: 1em;
+}
+
+#component {
+	width: 75%;
+	height: 60%;
+	background-color: red;
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+#user-pic {
+	border-radius: 50%;
+	border: 5px solid var(--white);
+}
+
+#user-info {
+	align-self: center;
+}
+
+hr {
+	margin: 0;
+}
+
+#user-stats ul {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	justify-content: space-around;
+}
+
+#attribution {
+	display: none;
+}
