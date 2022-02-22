@@ -14,7 +14,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
-	background: url("../images/bg-pattern-top.svg") 130% 225% no-repeat, url("../images/bg-pattern-bottom.svg") -30% -120% no-repeat, var(--dark-cyan);
+	background: url("../images/bg-pattern-top.svg") 115% 225% no-repeat, url("../images/bg-pattern-bottom.svg") -15% -120% no-repeat, var(--dark-cyan);
 }
 
 #component {
@@ -23,6 +23,7 @@ body {
 	width: 80%;
 	height: auto;
 	text-align: center;
+	box-shadow: 0px 5px 10px 5px hsla(0, 0%, 0%, 0.1);
 }
 
 header {
@@ -40,7 +41,7 @@ header {
 }
 
 #user-info {
-	margin-top: 3.5em;
+	margin-top: 4em;
 }
 
 #user-info p {
@@ -65,9 +66,9 @@ h2 {
 }
 
 #user-stats {
-	margin-top: 2em;
+	margin-top: 2.5em;
 	border-top: 1px solid hsla(0, 0%, 59%, 0.4);
-	padding: 0.8em;
+	padding: 1.2em;
 }
 
 #user-stats ul {
@@ -86,5 +87,14 @@ h2 {
 }
 
 #attribution {
-	display: none;
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+	color: var(--white);
+	font-size: 0.8em;
+}
+
+/* media queries */
+@media (min-width: 501px) {
+	/* falta esto */
 }
