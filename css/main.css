@@ -14,7 +14,10 @@ body {
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
-	/* background.. */
+	background-color: var(--dark-cyan);
+	background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
+	background-repeat: no-repeat, no-repeat;
+	background-position: right calc(50vw + 2.5em) bottom calc(50vh - 100px), left calc(50vw + 5px) top calc(50vh - 2.5em)
 }
 
 #component {
