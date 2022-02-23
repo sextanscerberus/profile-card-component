@@ -14,7 +14,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
-	background: url("../images/bg-pattern-top.svg") 115% 225% no-repeat, url("../images/bg-pattern-bottom.svg") -15% -120% no-repeat, var(--dark-cyan);
+	/* background.. */
 }
 
 #component {
@@ -95,6 +95,20 @@ h2 {
 }
 
 /* media queries */
-@media (min-width: 501px) {
-	/* falta esto */
+@media (min-width: 559px) {
+	#component {
+		width: 50%;
+	}
+}
+
+@media (min-width: 934px) {
+	#component {
+		width: 35%;
+	}
+}
+
+@media (min-width: 1279px) {
+	#component {
+		width: 25%;
+	}
 }
